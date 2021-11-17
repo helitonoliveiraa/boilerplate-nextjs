@@ -1,7 +1,5 @@
 import Head from 'next/head';
 
-const bla = 'var';
-
 export default function Home({ title = 'React avançado' }) {
   return (
     <div>
@@ -12,7 +10,10 @@ export default function Home({ title = 'React avançado' }) {
       </Head>
 
       <h1>
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Welcome to tp <a href="https://nextjs.org">Next.js!</a>
+      </h1>
+      <h1>
+        Welcome to tp <a href="https://nextjs.org">Next.js!</a>
       </h1>
     </div>
   );
